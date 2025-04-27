@@ -153,6 +153,9 @@ with tab_why:
     5. **Scalable:** Add clients without extra central power  
     """)
     st.image("assets/implementation_diagram.png", caption="Federated Learning Workflow", use_container_width=False)
+    st.markdown("You can watch the training video at: [Training on 3 nodes](https://drive.google.com/file/d/1V9S5bxmEuhhzosijswCRyiuAkxYQcegg/view?usp=drive_link)")
+
+
     # st.video("assets/Federated Learning of Devanagri Script at 3x.mp4", start_time=0)
     # st.markdown("Training the model on 3 nodes")
 
