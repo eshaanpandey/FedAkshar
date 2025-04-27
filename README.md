@@ -79,8 +79,18 @@ streamlit run app.py
 
 ## 📸 Screenshots
 
-[Home](assets/homepage_screenshot.png)
+Homepage
 
-[Prediction](assets/prediction_screenshot.png) |
+![](assets/homepage1.png)
+
+![](assets/homepage2.png)
+
+About Section
+![](assets/about.png)
+
+Why Federated Learning?
+![](assets/Why_Federated.png)
+
+Watch the video [here](https://drive.google.com/file/d/1V9S5bxmEuhhzosijswCRyiuAkxYQcegg/view?usp=drive_link)!
 
 ---
