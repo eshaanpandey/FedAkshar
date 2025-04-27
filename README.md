@@ -9,6 +9,8 @@ This project demonstrates secure on-device training while achieving high accurac
 
 [**Visit the live App**](https://eshaanpandey-federated-image-classifier-app-9dusaf.streamlit.app/)
 
+[**Watch working site video**](https://drive.google.com/file/d/1t7o_SSHgL1uxDl_ejizWFQw0uhlwOxGP/view?usp=sharing)
+
 ---
 
 ## ✨ Features
