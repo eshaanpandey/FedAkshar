@@ -2,4 +2,3 @@ streamlit
 tensorflow
 opencv-python
 numpy
-cv2
