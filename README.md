@@ -7,7 +7,7 @@ This project demonstrates secure on-device training while achieving high accurac
 
 ## 🚀 Live Site
 
-[**Visit the live App**](https://your-streamlit-deployment-link.com)
+[**Visit the live App**](https://eshaanpandey-federated-image-classifier-app-9dusaf.streamlit.app/)
 
 ---
 
