@@ -115,7 +115,7 @@ with tab_home:
 
 # --- ABOUT PAGE ---
 with tab_about:
-    st.header("📋 Project Overview & Technical Details")
+    st.header("Project Overview & Technical Details")
     st.subheader("Dataset")
     st.markdown("""
     - **DevanagariHandwrittenCharacterDataset**: 46 classes (36 letters, 10 numerals)  
@@ -144,7 +144,7 @@ with tab_about:
 
 # --- WHY FEDERATED? PAGE ---
 with tab_why:
-    st.header("🔒 Why Federated Learning?")
+    st.header("Why Federated Learning?")
     st.markdown("""
     1. **Data Privacy:** Raw data never leaves devices  
     2. **Decentralized Training:** No central data bottleneck  
