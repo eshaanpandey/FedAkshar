@@ -83,12 +83,12 @@ streamlit run app.py
 
 Homepage
 
-![](assets/homepage1.png)
+![](assets/Homepage1.png)
 
-![](assets/homepage2.png)
+![](assets/Homepage2.png)
 
 About Section
-![](assets/about.png)
+![](assets/About.png)
 
 Why Federated Learning?
 ![](assets/Why_Federated.png)
