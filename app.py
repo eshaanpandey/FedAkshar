@@ -71,37 +71,37 @@ tab_home, tab_about, tab_why = st.tabs(["Home", "About", "Why Federated?"])
 with tab_home:
     st.header("Devanagari Letter Classifier")
 
-    with st.container():
-        st.markdown("""
-        <div style="background-color: #444; padding: 30px; border-radius: 20px; margin-bottom: 30px;">
-            <h4 style="text-align: center; color: white;">Upload a handwritten Devanagari letter.</h4>
-        """, unsafe_allow_html=True)
+    # with st.container():
+    st.markdown("""
+    <div style="background-color: #444; padding: 30px; border-radius: 20px; margin-bottom: 30px;">
+        <h4 style="text-align: center; color: white;">Upload a handwritten Devanagari letter.</h4>
+    """, unsafe_allow_html=True)
 
-        uploaded = st.file_uploader("Choose an image", type=["jpg","png"])
-        samples = [f for f in os.listdir("samples") if f.lower().endswith((".png",".jpg", ".jpeg"))]
-        choice = st.selectbox("Or pick a sample:", [""] + samples)
+    uploaded = st.file_uploader("Choose an image", type=["jpg","png"])
+    samples = [f for f in os.listdir("samples") if f.lower().endswith((".png",".jpg", ".jpeg"))]
+    choice = st.selectbox("Or pick a sample:", [""] + samples)
 
-        st.markdown("</div>", unsafe_allow_html=True)
+    st.markdown("</div>", unsafe_allow_html=True)
 
-        if choice and not uploaded:
-            uploaded = open(os.path.join("samples", choice), "rb")
+    if choice and not uploaded:
+        uploaded = open(os.path.join("samples", choice), "rb")
 
-        col1, col2 = st.columns(2)
-        if uploaded:
-            data = np.frombuffer(uploaded.read(), np.uint8)
-            img = cv2.imdecode(data, cv2.IMREAD_COLOR)
-            col1.image(img[:,:,::-1], caption="Input Image", width=500)
+    col1, col2 = st.columns(2)
+    if uploaded:
+        data = np.frombuffer(uploaded.read(), np.uint8)
+        img = cv2.imdecode(data, cv2.IMREAD_COLOR)
+        col1.image(img[:,:,::-1], caption="Input Image", width=500)
 
-            img_rs = cv2.resize(img, (32,32))
-            preds = model.predict(np.expand_dims(img_rs, 0))
-            idx = int(np.argmax(preds))
-            conf = float(np.max(preds))
-            letter = class_names[idx] if 0 <= idx < len(class_names) else "Unknown"
+        img_rs = cv2.resize(img, (32,32))
+        preds = model.predict(np.expand_dims(img_rs, 0))
+        idx = int(np.argmax(preds))
+        conf = float(np.max(preds))
+        letter = class_names[idx] if 0 <= idx < len(class_names) else "Unknown"
 
-            col2.metric("Predicted Letter", letter)
-            col2.metric("Confidence", f"{conf:.2%}")
-        else:
-            col1.info("Please upload or select an image.")
+        col2.metric("Predicted Letter", letter)
+        col2.metric("Confidence", f"{conf:.2%}")
+    else:
+        col1.info("Please upload or select an image.")
 
     st.markdown("### Example Results")
 
