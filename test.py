@@ -77,8 +77,6 @@ true_classes = np.argmax(true_classes, axis=1)
 class_labels = list(test_data.class_names)
 
 
-
-
 # predictig on 32 test images
 import cv2
 import numpy as np

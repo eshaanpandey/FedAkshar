@@ -1,5 +1,3 @@
-# rebuild_and_save_model.py
-
 import tensorflow as tf
 import pickle
 

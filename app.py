@@ -16,7 +16,7 @@ def load_model():
 
 model = load_model()
 
-# --- Inject Custom CSS ---
+# --- Custom CSS ---
 st.markdown("""
 <style>
 body, .stApp {

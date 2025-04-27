@@ -1,51 +1,48 @@
-# app_labels.py
-
-# Replace the entries below with your precise sequence of glyphs
 class_names = [
-    "ञ",  # character_1_ka
-    "ट",  # character_2_kha
-    "ठ",  # character_3_ga
-    "ड",  # character_4_gha
-    "ढ",  # character_5_kna
-    "ण",  # character_6_cha
-    "त",  # character_7_chha
-    "थ",  # character_8_ja
-    "द",  # character_9_jha
-    "ध",  # character_10_yna
-    "क",  # character_11_taamatar
-    "न",  # character_12_thaa
-    "प",  # character_13_daa
-    "फ",  # character_14_dhaa
-    "ब",  # character_15_adna
-    "भ",  # character_16_tabala
-    "म",  # character_17_tha
-    "य",  # character_18_da
-    "र",  # character_19_dha
-    "ल",  # character_20_na
-    "व",  # character_21_pa
-    "ख",  # character_22_pha
-    "श",  # character_23_ba
-    "ष",  # character_24_bha
-    "स",  # character_25_ma
-    "ह",  # character_26_yaw
-    "क्ष",  # character_27_ra
-    "त्र",  # character_28_la
-    "ज्ञ",  # character_29_waw
-    "ग",  # character_30_motosaw
-    "घ",  # character_31_petchiryakha
-    "ङ",  # character_32_patalosaw
-    "च",  # character_33_ha
-    "छ",  # character_34_chhya
-    "ज",  # character_35_tra
-    "क्ष",  # character_36_gya
-    "0",  # digit_0
-    "१",  # digit_1
-    "२",  # digit_2
-    "३",  # digit_3
-    "४",  # digit_4
-    "५",  # digit_5
-    "६",  # digit_6
-    "७",  # digit_7
-    "८",  # digit_8
-    "९",  # digit_9
+    "ञ", 
+    "ट", 
+    "ठ", 
+    "ड", 
+    "ढ", 
+    "ण", 
+    "त",
+    "थ", 
+    "द", 
+    "ध", 
+    "क", 
+    "न", 
+    "प", 
+    "फ", 
+    "ब", 
+    "भ", 
+    "म", 
+    "य", 
+    "र", 
+    "ल", 
+    "व", 
+    "ख", 
+    "श", 
+    "ष", 
+    "स", 
+    "ह",
+    "क्ष",
+    "त्र",
+    "ज्ञ",
+    "ग", 
+    "घ", 
+    "ङ", 
+    "च", 
+    "छ", 
+    "ज", 
+    "क्ष", 
+    "0", 
+    "१", 
+    "२", 
+    "३", 
+    "४", 
+    "५",
+    "६", 
+    "७", 
+    "८",
+    "९", 
 ]
