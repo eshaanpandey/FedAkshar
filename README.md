@@ -1,7 +1,7 @@
-# Federated Devanagari Letter Classifier
+# FedAkshar
 
-A Streamlit web app that predicts handwritten Devanagari letters (अ, आ, क, ख, etc.) using a **Federated Learning-trained CNN**.  
-This project demonstrates secure on-device training while achieving high accuracy without centralizing data.
+A **Federated Image Classifier** that predicts handwritten Devanagari letters (अ, आ, क, ख, etc.) using a **Federated Learning-trained CNN**.  
+This project demonstrates secure on-device training while achieving high accuracy without centralizing data. It is deployed using Streamlit.
 
 ---
 
